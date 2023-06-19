@@ -1,2 +1,20 @@
 Step1 === Intall Jest with (npm i --save-dev jest)
 Step2 === Change the test script to "jest"
+
+toBe matcher:
+
+The toBe matcher performs a strict equality comparison (===) between the actual and expected values.
+It checks if the actual and expected values are the same instance in memory (same reference) for objects and arrays.
+For primitive values (numbers, strings, booleans), it compares the values directly.
+
+toEqual matcher:
+
+The toEqual matcher performs a deep equality comparison between the actual and expected values.
+It recursively compares the values of nested objects and arrays, ensuring they have the same properties/elements and values.
+It does not require the actual and expected values to be the same instances in memory.
+It is more suitable for comparing complex objects and arrays.
+
+*****************Coverage
+
+add in scripts jest --coverage instead of jest 
+so you can see the code coverage
