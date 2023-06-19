@@ -1,0 +1,2 @@
+Step1 === Intall Jest with (npm i --save-dev jest)
+Step2 === Change the test script to "jest"
